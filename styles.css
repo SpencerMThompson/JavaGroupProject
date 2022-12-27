@@ -1,0 +1,124 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 1, 2022, 2:09:26 PM
+    Author     : SMTan
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+*{
+    background-color: #f9e28b;
+    font-family: 'Poppins';
+}
+#wrapper {
+    width: 960px;
+    height: 560px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9e28b;
+    box-shadow: 5px, 5px, 5px, #663600;
+}
+h1{
+    color: #9673A5;
+}
+.textInput{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.indexButtons{
+    font-size: 1.2rem;
+    border-radius: 4rem;
+    width: 80%;
+    background: transparent;
+    color: #9673A5;
+    padding: 5px;
+    border: 2px solid #9673A5;
+    margin-left: 10%;
+    margin-bottom: 0.4em;
+}
+.indexButtons:hover{
+    transition: all 0.3s ease 0s;
+    background-color:#D9F98B;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login h1, #login p{
+    text-align: center;
+}
+#form{
+    margin: 10px
+}
+#inputs {
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inputs input{
+    align: left;
+}
+
+#inputs2 {
+    padding: 50px;
+    margin-left: 40px;
+    margin-right: auto;
+}
+#inputs2 input{
+    align: left;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 20vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+    position: fix;
+    left: 0;
+    top: 0;
+    width: 111%;
+}
+
+nav li{
+    display: inline-flex;
+    padding: 0px 2px;
+    margin-right: 2px;
+}
+
+.nav_buttons{
+    color: #9673A5;
+    display: inline-flex;
+    font-size: 1.2rem;
+    border-radius: 4rem;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #9673A5;
+}
+
+.nav_buttons:hover{
+    transition: all 0.3s ease 0s;
+    background-color:#D9F98B;
+}
